@@ -19,6 +19,7 @@ depends: [
   "dune" {>= "1.7"}
   "cppo" {build & >= "1.1.0"}
   "uutf" {>= "1.0.0"}
+  "uchar" {>= "0.0.2"}
 ]
 depopts: [ "lwt" ]
 conflicts: [ "lwt" {<"2.5.2"} ]
